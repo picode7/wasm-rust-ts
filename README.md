@@ -1,11 +1,13 @@
-# WASM Rust TypeScript Example
+# WebAssembly + Rust + TypeScript + Webpack Example
 
 ## Setup
 
-Install rust. Then run:
-
+Make Rust is installed with it's packages:
+- Install rust
 - `cargo install wasm-pack`
 - `cargo install cargo-watch`
+
+Run npm install:
 - `npm install`
 
 ## Usage
