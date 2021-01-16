@@ -9,9 +9,7 @@
     "webpack-cli": "3.3.11"
   },
   "scripts": {
-    "serve": "cd dist; ../node_modules/.bin/wasm-server",
-    "watch": "npm run watch-rust & npm run watch-webpack",
-    "watch-rust": "cd ./rust_module && cargo watch -w './src' -w './Cargo.toml' -s 'wasm-pack build'",
-    "watch-webpack": "node_modules/.bin/webpack -w"
+    "watch": "npm run watch-rust & webpack -w",
+    "watch-rust": "cd ./rust_module && cargo watch -w './src' -w './Cargo.toml' -s 'wasm-pack build'"
   }
 }
