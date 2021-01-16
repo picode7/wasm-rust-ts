@@ -11,13 +11,12 @@ Rust dependencies:
 
 NPM dependencies:
 
-- [`npm install serve -g`](https://www.npmjs.com/package/serve)
 - `npm install`
 
 ## Usage
 
 - Run `npm run watch`
-- Run `serve ./dist/`
+- Run `npm run serve`
 - Open in browser: <http://localhost:5000/>
 
 ## In a new project

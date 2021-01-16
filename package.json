@@ -1,7 +1,8 @@
 {
   "devDependencies": {
-    "html-webpack-plugin": "^4.5.1",
     "@types/html-webpack-plugin": "^3.2.4",
+    "html-webpack-plugin": "^4.5.1",
+    "serve": "^11.3.2",
     "ts-loader": "^8.0.14",
     "typescript": "^4.1.3",
     "wasm-server": "0.0.4",
@@ -9,6 +10,7 @@
     "webpack-cli": "3.3.11"
   },
   "scripts": {
+    "serve": "serve ./dist/",
     "watch": "npm run watch-rust & webpack -w",
     "watch-rust": "cd ./rust_module && cargo watch -w './src' -w './Cargo.toml' -s 'wasm-pack build'"
   }
