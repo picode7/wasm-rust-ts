@@ -5,7 +5,7 @@
     "noImplicitAny": true,
     "moduleResolution": "Node",
     "module": "es2020",
-    "target": "es5",
+    "target": "es2020",
     "allowJs": true
   }
 }
